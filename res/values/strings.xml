@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="about">About</string>
+    <string name="_155m">155M</string>
+    <string name="views">Views</string>
+    <string name="below">This is the about page for the resource hub app.This app provides you with the ability to view,
+        upload, download and create your own community from the comfort of your bed. It has multiple and interesting
+        feautures be sure to check them out.For more exciting details you just click the button bellow
+    </string>
+    <string name="todos">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="email">email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="registers">LOGIN</string>
+</resources>

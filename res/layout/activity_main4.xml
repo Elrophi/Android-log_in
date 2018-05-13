@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        tools:context="com.example.maigoje.myapplication.Main4Activity">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="223dp"
+                   android:id="@+id/toppic"
+                   android:layout_centerHorizontal="true"
+                   android:background="@drawable/use"
+                   android:scaleType="centerCrop"
+                   android:layout_margin="20sp"
+
+        />
+
+        <ProgressBar android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:layout_centerVertical="true"
+                     android:id="@+id/pgbar"
+                     android:visibility="gone"
+
+        />
+
+
+
+    </RelativeLayout>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/details"
+              android:hint="Enter name to display"
+              android:padding="20dp"
+
+    />
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/butt"
+            android:text="Save"
+            android:background="@color/colorPrimary"
+            android:layout_margin="2dp"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:text="Verificatio"
+              android:textSize="15dp"
+              android:textStyle="bold"
+              android:id="@+id/verify"
+              android:textAppearance="@style/Base.AlertDialog.AppCompat"
+
+
+    />
+</LinearLayout>
